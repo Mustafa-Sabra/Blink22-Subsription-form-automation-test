@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Blink22 Subscription Form Suite">
+    <test name="Blink22 Tests">
+        <classes>
+            <class name="Tests.PrintPlaceholders"/>
+            <class name="Tests.ValidateRequiredField"/>
+            <class name="Tests.ValidateInvalidEmailFormat"/>
+            <class name="Tests.ValidateThanksMgs"/>
+        </classes>
+    </test>
+</suite>
